@@ -7,5 +7,5 @@ def myFun(i):
     print(s)
 
 start = time()
-myFun(20000)
+myFun(200000001)
 print(time() - start, "seconds")
