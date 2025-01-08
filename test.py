@@ -1,7 +1,11 @@
+from time import *
+
 def myFun(i):
     s = 0
     for j in range(i):
         s += j
     print(s)
 
-myFun(5)
+start = time()
+myFun(20000)
+print(time() - start, "seconds")
